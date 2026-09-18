@@ -78,10 +78,11 @@
 3. Publish directory: `dist`
 4. Click **Deploy Site**.
 
-### Deploy to GitHub Pages
-1. In `package.json`, ensure build outputs to `dist/`.
-2. Push your code to GitHub.
-3. Go to **Settings > Pages > Build and deployment > Source: GitHub Actions** (Static HTML / Vite Action) or push the `dist/` folder to `gh-pages` branch.
+### Deploy to GitHub Pages (Automated via GitHub Actions)
+1. Push this repository to GitHub.
+2. In your GitHub repository, navigate to **Settings** > **Pages** (under the "Code and automation" section).
+3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4. The workflow in `.github/workflows/deploy.yml` will automatically trigger on push to `main` (or `master`), build the site, and publish it to `https://<username>.github.io/<repo-name>/`.
 
 ---
 
