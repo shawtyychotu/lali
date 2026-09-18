@@ -1,0 +1,6 @@
+{
+  "name": "Split Reveal Lollipop Loader",
+  "description": "A split-reveal loading screen featuring an animated colorful center lollipop, enlarged right-side 3-square loading bar, and a clean white background with replay animation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
